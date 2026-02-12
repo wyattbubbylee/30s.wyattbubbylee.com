@@ -1,0 +1,55 @@
+# Markata-go configuration file
+
+[markata-go]
+# Site metadata
+title = "30s Jump"
+url = "https://30s.wyattbubbylee.com"
+description = "\"test\" jumps to a new place every 30 seconds."
+author = "Wyatt Walker"
+
+# Output settings
+output_dir = "output"
+templates_dir = "templates"
+assets_dir = "static"
+
+# File discovery
+[markata-go.glob]
+patterns = ["**/*.md"]
+use_gitignore = true
+
+# Theme configuration
+[markata-go.theme]
+name = "default"
+palette = "Mist GB"
+
+# SEO configuration
+[markata-go.seo]
+default_image = "https://30s.wyattbubbylee.com/snowflake.png"
+logo_url = "https://30s.wyattbubbylee.com/snowflake.png"
+
+# Post output formats
+[markata-go.post_formats]
+html = true
+text = true
+markdown = true
+og = true
+
+
+# Feed defaults
+[markata-go.feed_defaults]
+items_per_page = 10
+orphan_threshold = 3
+
+[markata-go.feed_defaults.formats]
+html = true
+rss = true
+atom = true
+json = true
+
+# Define custom feeds
+[[markata-go.feeds]]
+slug = "archive"
+title = "Archive"
+filter = "published"
+sort = "date"
+reverse = true
