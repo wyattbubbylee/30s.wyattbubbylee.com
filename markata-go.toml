@@ -2,10 +2,10 @@
 
 [markata-go]
 # Site metadata
-title = "30s Jump"
+title = "30s Cards"
 url = "https://30s.wyattbubbylee.com"
-description = "\"test\" jumps to a new place every 30 seconds."
-author = "Wyatt Walker"
+description = "cards that teleport to a new place every 30 seconds."
+# author = "Wyatt Walker"
 
 # Output settings
 output_dir = "output"
@@ -20,7 +20,7 @@ use_gitignore = true
 # Theme configuration
 [markata-go.theme]
 name = "default"
-palette = "Mist GB"
+palette = "night-owl"
 
 # SEO configuration
 [markata-go.seo]
@@ -34,6 +34,25 @@ text = true
 markdown = true
 og = true
 
+[markata-go.authors]
+generate_pages = true
+feeds_enabled = true
+
+[markata-go.authors.authors.wyatt]
+name = "Wyatt Walker"
+role = "owner"
+url = "https://go.wyattbubbylee.com"
+avatar = '/wyatt.jpg'
+active = true
+# default = true
+
+[markata-go.authors.authors.waylon]
+name = "Waylon Walker"
+role = "editor"
+url = "https://waylonwalker.com"
+avatar = '/waylon.png'
+active = true
+
 
 # Feed defaults
 [markata-go.feed_defaults]
@@ -46,6 +65,10 @@ rss = true
 atom = true
 json = true
 
+[[markata-go.nav]]
+label = "Archive"
+url = "/archive/"
+
 # Define custom feeds
 [[markata-go.feeds]]
 slug = "archive"
@@ -53,3 +76,10 @@ title = "Archive"
 filter = "published"
 sort = "date"
 reverse = true
+
+[markata-go.mentions]
+enabled = true
+[[markata-go.mentions.from_posts]]
+filter = "'contact' in tags"
+handle_field = "handle"
+aliases_field = "aliases"
