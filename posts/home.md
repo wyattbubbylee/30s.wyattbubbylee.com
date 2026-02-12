@@ -8,4 +8,4 @@ tags: []
 description: ""
 ---
 
-30s stories by @wyatt and @waylon
+30s character card stories by @wyatt and @waylon
