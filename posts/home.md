@@ -8,4 +8,4 @@ tags: []
 description: ""
 ---
 
-Write your content here...
+30s stories by @wyatt and @waylon
