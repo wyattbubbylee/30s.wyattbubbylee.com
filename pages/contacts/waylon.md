@@ -18,6 +18,3 @@ author:
 
 Hi I'm Waylon, I write for @wicket .
 
-
-...
-
