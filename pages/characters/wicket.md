@@ -11,9 +11,7 @@ aliases:
   - wicket
   - wick
 author:
-  - id: waylon
-    role: author
-    details: I created wicket
+  - waylon
 ---
 
 A wise old bird who is often the voice of reason in critical situations. He
