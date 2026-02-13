@@ -48,7 +48,7 @@ active = true
 
 [markata-go.authors.authors.waylon]
 name = "Waylon Walker"
-role = "editor"
+role = "Voice of Wicket"
 url = "https://waylonwalker.com"
 avatar = '/waylon.png'
 active = true

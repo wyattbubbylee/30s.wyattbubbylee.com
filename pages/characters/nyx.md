@@ -5,7 +5,8 @@ published: false
 slug: nyx
 tags:
     - character
-template: post
+avatar: '/nyx.png'
+template: contact
 title: Nyx
 ---
 

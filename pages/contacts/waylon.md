@@ -5,14 +5,19 @@ title: Waylon
 tags:
   - author
   - contact
-published: True
+published: true
 handle: waylon
 avatar: '/waylon.png'
 aliases:
   - waylonwalker
 url: https://waylonwalker.com
+author:
+  - waylon
 
 ---
 
-Hi I'm Waylon
+Hi I'm Waylon, I write for @wicket .
+
+
+...
 
