@@ -52,8 +52,6 @@ Orthopyroxene
 
 Clinopyroxene
 
-These make up most S-type (stony) asteroids.
-
 🌑 Carbon-Rich Solids (Common in C-type Asteroids)
 
 Graphite
@@ -100,22 +98,3 @@ Cohenite (iron carbide)
 
 Diamond (tiny microscopic forms found in some meteorites)
 
-🔥 Coolest Real-Sounding Solid Names (That Are Actually Real)
-
-If you want something that sounds powerful but is real:
-
-Taenite
-
-Kamacite
-
-Schreibersite
-
-Troilite
-
-Ilmenite
-
-Chromite
-
-Olivine
-
-Taenite and Kamacite especially sound very sci-fi but are 100% real asteroid allo
